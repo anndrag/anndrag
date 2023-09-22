@@ -1,0 +1,272 @@
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+p {
+    font-size: 18px;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background-color: #4894BB ;
+    color:#FFFFFF;
+    
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+#nav-logo {
+    max-height: 5vh; 
+    margin-left: 10px;
+}
+
+
+
+/* Landing Page */
+
+#landing-page-hero {
+    background-color: gainsboro;
+    background-image: url("./images/stock-photo-geometric-abstract-background-with-connected-line-and-dots-structure-molecule-and-communication-2112359093.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing-hero-content {
+    max-width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;  
+}
+
+#landing-hero-logo {
+    margin-top: 36vh; 
+    width: 90%;
+    max-width: 550px;
+    margin-left: 10%;
+}
+
+#slogan {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px;
+    color: #000000;
+    max-width: 90%;
+    margin-left: 10%;
+}
+
+#explore-btn {
+    background: #4894BB;
+    border: 2px solid #4894BB;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+#brand {
+    margin-left: 10%;
+    margin-top: 22vh;
+}
+
+#brand span {
+    font-size: 16px;
+    padding: 5px;
+}
+
+#brand img {
+    max-height: 27px;
+    padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero-content {
+        padding-top: 5vh;
+       max-width: 100%;
+       background-color: rgba(164, 240, 251, 0.07);
+
+    }
+   
+    #hero-logo, #slogan, #explore {
+        margin-left: 5% !important;
+    }
+
+    #brand {
+        margin-top: 25vh;
+    }
+   }
+
+
+
+/* Main Page */
+
+
+
+#main-hero {
+    background-color: #f9f9f9;
+    background-image: url("images/dawizz-high-resolution-logo-black-on-white-background.png");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 25vw;
+}
+
+#main-content-container {
+    background-color: #f9f9f9;
+}
+
+#inner-content-container {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 70px;
+}
+
+/* Program Section */
+
+
+.section-header {
+    font-weight: 650;
+    font-size: 24px;
+    padding-top: 65px;
+}
+
+#dawizz-intro {
+    padding: 55px 200px 30px 0px;
+}
+
+#dawizz-accordion {
+    width: 50%;
+    border-left: 8px solid #800000;
+}
+
+.accordion-body {
+    background-color: #f9f9f9;
+}
+
+#dawizz-contact-btn {
+    background: #800000;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 170px;
+    height: 51px;
+}
+
+/* Image Divider */
+#divider-image img {
+    width: 100%;
+    padding: 55px 0px 0px;
+}
+
+/* Cost */
+
+/* #cost {
+    padding: 65px 0px;
+} */
+
+#cost h3, #about h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+#cost p {
+    padding: 10px 200px 15px 0px;
+}
+
+/* FAQ */
+#faq .section-header {
+    padding-bottom: 35px;
+}
+
+#faq-accordion {
+    width: 80%;
+}
+
+
+/* About */
+
+#about-img-container {
+    width: 39%;
+    display: inline-block;
+    
+    vertical-align: top;
+    padding-top: 40px;
+}
+
+#about-content-container {
+    width: 59%;
+    margin-left: 5px;
+    display: inline-block;
+   
+}
+
+
+#about-img-container img {
+    height: 100%;
+    max-width: 99%;
+    /* padding: 65px 0 0 0; */
+    
+}
+
+#about h3 {
+    
+    padding-top: 0;
+}
+
+#about p {
+    font-size: 16px;
+    margin-right: 200px;
+    
+}
+
+/* Contact */
+
+#submit-btn {
+    background: #800000;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 170px;
+    height: 51px;
+    margin-top: 10px;
+}
+
+
+input[type=text], textarea {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-bottom:  0.75rem;
+    resize: vertical;
+  }
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  
+ 
+  
+  
